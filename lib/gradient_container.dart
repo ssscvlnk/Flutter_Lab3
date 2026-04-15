@@ -21,7 +21,8 @@ class GradientContainer
         ),
       ),
       child: Center(
-        child: StyledText("Hello world")
+        child: Image.asset('assets/images/dice-1.png',
+        width: 300)
       ),
     );
   }
