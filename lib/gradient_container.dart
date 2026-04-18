@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lab3_app_startseva/styled_text.dart';
-
+import 'package:flutter_lab3_app_startseva/dice_roller.dart';
 const startAlignment = Alignment.topCenter;
 const endAlignment = Alignment.bottomCenter;
 

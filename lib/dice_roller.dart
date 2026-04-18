@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lab_3_app_startseva/dice_roller.dart';
+import 'package:flutter_lab3_app_startseva/dice_roller.dart';
 import 'dart:math';
-final ramdomizer = Random();
+final randomizer = Random();
 class DiceRoller extends StatefulWidget {
   const DiceRoller({super.key});
 
@@ -11,7 +11,7 @@ class DiceRoller extends StatefulWidget {
   }
 }
 
-class _DiceRollerState() extends State<DiceRoller> {
+class _DiceRollerState extends State<DiceRoller> {
   var currentDiceRoll = 2;
   void rollDice() {
     setState(() {
